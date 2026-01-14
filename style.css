@@ -122,13 +122,15 @@ body{
 }
 
 .bar{
-  margin-top: 16px;
-  height: 14px;
+  margin-top: 12px;
+  margin-bottom: 0; /* remove espaço extra */
+  height: 10px;
   border-radius: 999px;
   background: rgba(255,255,255,0.12);
   overflow:hidden;
   border: 1px solid rgba(255,255,255,0.10);
 }
+
 
 .fill{
   height:100%;
