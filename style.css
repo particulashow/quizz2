@@ -136,6 +136,9 @@ body{
   border-radius: 999px;
   transition: width 650ms ease;
 }
+.options{
+  margin-top: 24px; /* desce as caixas */
+}
 
 /* Cores */
 .option[data-k="a"] .letter{ background: var(--a); }
