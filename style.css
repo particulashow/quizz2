@@ -20,7 +20,7 @@ body{
 
 .frame{
   width: 1920px;
-  height: 500px;
+  height: 200px;
   padding: 28px 40px;
   display:flex;
   flex-direction: column;
