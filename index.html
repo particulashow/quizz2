@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zoom Poll (A/B)</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <div class="frame">
+    <div class="header">
+      <div class="title" id="title">Pergunta</div>
+      <div class="meta">
+        <span class="chip">Vota no chat: A ou B</span>
+        <span class="chip chip-muted" id="status">A ligar…</span>
+      </div>
+    </div>
+
+    <div class="options options-2">
+      <!-- A -->
+      <div class="option" data-k="a">
+        <div class="option-top">
+          <div class="badge">
+            <div class="letter">A</div>
+            <div class="text" id="text_a">Opção A</div>
+          </div>
+          <div class="count" id="count_a">0</div>
+        </div>
+        <div class="bar"><div class="fill" id="fill_a"></div></div>
+      </div>
+
+      <!-- B -->
+      <div class="option" data-k="b">
+        <div class="option-top">
+          <div class="badge">
+            <div class="letter">B</div>
+            <div class="text" id="text_b">Opção B</div>
+          </div>
+          <div class="count" id="count_b">0</div>
+        </div>
+        <div class="bar"><div class="fill" id="fill_b"></div></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
