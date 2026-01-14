@@ -20,11 +20,11 @@ body{
 
 .frame{
   width: 1920px;
-  height: 200px;
+  height: 500px;
   padding: 28px 40px;
   display:flex;
   flex-direction: column;
-  gap: 22px;
+  gap: 35px;
 }
 
 .header{
