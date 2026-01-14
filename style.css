@@ -24,7 +24,7 @@ body{
   padding: 28px 40px;
   display:flex;
   flex-direction: column;
-  gap: 34px;
+  gap: 22px;
 }
 
 .header{
